@@ -1,1 +1,1 @@
-web: sudo apt-get install libgl1-mesa-glx && python app.py
+web: apt-get update && apt-get install -y ffmpeg libsm6 libxext6 && python app.py
