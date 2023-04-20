@@ -1,1 +1,1 @@
-web: python app.py
+web: sudo apt-get install libgl1-mesa-glx && python app.py
